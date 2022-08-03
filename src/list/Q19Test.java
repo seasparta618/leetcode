@@ -6,10 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-/**
- * question url: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
- * question solution:
- */
+
 public class Q19Test {
     @Test
     public void exampleTest() {
