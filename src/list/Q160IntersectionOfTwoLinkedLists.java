@@ -2,31 +2,6 @@ package list;
 
 public class Q160IntersectionOfTwoLinkedLists {
 
-    public static void main(String[] args) {
-        // 11
-        ListNode pubList = new ListNode().initializeSingleDirectionList(new int[]{10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20});
-        // 9
-        ListNode l1 = new ListNode().initializeSingleDirectionList(new int[]{0, 1, 2, 3, 4, 5, 6, 7, 8, 9});
-        // 5
-        ListNode l2 = new ListNode().initializeSingleDirectionList(new int[]{5, 6, 7, 8, 9});
-        System.out.println(new Q160IntersectionOfTwoLinkedLists().getIntersectionNode(l1, l2));
-
-        for (ListNode node = l1; node != null; node = node.next) {
-            if (node.next == null) {
-                node.next = pubList;
-                break;
-            }
-        }
-        for (ListNode node = l2; node != null; node = node.next) {
-            if (node.next == null) {
-                node.next = pubList;
-                break;
-            }
-        }
-        ListNode interSection = new Q160IntersectionOfTwoLinkedLists().getIntersectionNode(l1, l2);
-        System.out.println(interSection == null ? null : interSection.val);
-    }
-
     public ListNode getIntersectionNode(ListNode l1, ListNode l2) {
         // special cases
         if (l1 == null || l2 == null) {
