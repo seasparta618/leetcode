@@ -1,16 +1,6 @@
-package ListPractice;
+package list;
 
 public class Q19RemoveNthNodeFromEndOfList {
-
-    public static void main(String[] args) {
-        int[] nums = new int[]{1, 2};
-        ListNode head = new ListNode().initializeSingleDirectionList(nums);
-        head = new Q19RemoveNthNodeFromEndOfList().removeNthFromEnd(head, 1);
-        while (head != null) {
-            System.out.println(head.val);
-            head = head.next;
-        }
-    }
 
     public ListNode removeNthFromEnd(ListNode head, int n) {
         if (head == null || head.next == null) {

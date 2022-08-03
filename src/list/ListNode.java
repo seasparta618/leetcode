@@ -1,4 +1,4 @@
-package ListPractice;
+package list;
 
 public class ListNode {
     int val;

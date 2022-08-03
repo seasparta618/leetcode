@@ -1,4 +1,4 @@
-package ListPractice;
+package list;
 
 import java.util.HashMap;
 

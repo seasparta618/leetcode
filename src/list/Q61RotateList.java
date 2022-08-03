@@ -1,4 +1,4 @@
-package ListPractice;
+package list;
 
 public class Q61RotateList {
     public static void main(String[] args) {

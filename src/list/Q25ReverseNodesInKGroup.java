@@ -1,4 +1,4 @@
-package ListPractice;
+package list;
 
 public class Q25ReverseNodesInKGroup {
     public static void main(String[] args) {

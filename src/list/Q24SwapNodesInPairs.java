@@ -1,4 +1,4 @@
-package ListPractice;
+package list;
 
 public class Q24SwapNodesInPairs {
     public static void main(String[] args) {

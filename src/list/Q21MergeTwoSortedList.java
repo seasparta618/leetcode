@@ -1,16 +1,6 @@
-package ListPractice;
+package list;
 
 public class Q21MergeTwoSortedList {
-    public static void main(String[] args) {
-        ListNode list1 = new ListNode().initializeSingleDirectionList(new int[]{1, 2, 3, 4, 5, 6, 7, 9999});
-        ListNode list2 = new ListNode().initializeSingleDirectionList(new int[]{2, 4, 5, 6, 9, 10, 18});
-        ListNode newNode = new Q21MergeTwoSortedList().mergeTwoLists(list1, list2);
-        while (newNode != null) {
-            System.out.println(newNode.val);
-            newNode = newNode.next;
-        }
-    }
-
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode node = new ListNode();
         ListNode head = node;
